@@ -1,0 +1,32 @@
+# ListClients200Response
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**count** | **int** |  | [optional] 
+**next** | **str** |  | [optional] 
+**previous** | **str** |  | [optional] 
+**results** | [**List[Client]**](Client.md) |  | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.list_clients200_response import ListClients200Response
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ListClients200Response from a JSON string
+list_clients200_response_instance = ListClients200Response.from_json(json)
+# print the JSON string representation of the object
+print(ListClients200Response.to_json())
+
+# convert the object into a dict
+list_clients200_response_dict = list_clients200_response_instance.to_dict()
+# create an instance of ListClients200Response from a dict
+list_clients200_response_from_dict = ListClients200Response.from_dict(list_clients200_response_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
